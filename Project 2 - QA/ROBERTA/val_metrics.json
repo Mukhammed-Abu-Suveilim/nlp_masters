@@ -1,0 +1,24 @@
+{
+  "val_exact_match": 0.15,
+  "n_correct": 6,
+  "n_val": 40,
+  "per_clause": {
+    "Agreement Date": 1.0,
+    "Effective Date": 0.6666666666666666,
+    "Parties": 0.08333333333333333,
+    "Cap On Liability": 0.0,
+    "Anti-Assignment": 0.0,
+    "Document Name": 0.0,
+    "Exclusivity": 0.0,
+    "Expiration Date": 0.0,
+    "Audit Rights": 0.0,
+    "Governing Law": 0.0,
+    "Insurance": 0.0,
+    "Minimum Commitment": 0.0,
+    "License Grant": 0.0,
+    "No-Solicit Of Employees": 0.0,
+    "Non-Compete": 0.0,
+    "Post-Termination Services": 0.0,
+    "Termination For Convenience": 0.0
+  }
+}

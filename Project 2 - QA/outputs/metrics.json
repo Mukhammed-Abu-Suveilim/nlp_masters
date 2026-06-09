@@ -1,0 +1,7 @@
+{
+  "val_exact_match": 0.025,
+  "n_val": 40,
+  "n_train": 160,
+  "model": "qwen3.5:0.8b",
+  "timestamp": "2026-05-31T21:50:24.988354+00:00"
+}

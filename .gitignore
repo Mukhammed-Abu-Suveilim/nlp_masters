@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Large model weights (download via Hugging Face when re-running)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# QA pipeline cache
+**/outputs/cache.jsonl

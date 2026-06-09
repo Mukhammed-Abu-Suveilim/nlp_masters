@@ -1,0 +1,63 @@
+2026-06-03 10:36:06 | INFO     | Device: GPU
+2026-06-03 10:36:06 | INFO     | GPU RAM Free: 16.8 GB
+2026-06-03 10:36:19 | INFO     | Loading Stage 2 Data...
+2026-06-03 10:36:19 | INFO     | 
+[1/8] Processing: akdeniz27/roberta-large-cuad
+2026-06-03 10:36:34 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 10:37:36 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 10:41:40 | INFO     | 
+[2/8] Processing: mgigena/roberta-large-cuad
+2026-06-03 10:41:53 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 10:42:56 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 10:46:58 | INFO     | 
+[3/8] Processing: deepset/deberta-v3-base-squad2
+2026-06-03 10:47:06 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 10:47:42 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 10:49:48 | INFO     | 
+[4/8] Processing: deepset/deberta-v3-large-squad2
+2026-06-03 10:50:01 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 10:51:24 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 10:56:39 | INFO     | 
+[5/8] Processing: deepset/roberta-base-squad2
+2026-06-03 10:56:44 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 10:57:09 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 10:58:44 | INFO     | 
+[6/8] Processing: deepset/electra-base-squad2
+2026-06-03 10:58:50 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 10:59:13 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 11:00:42 | INFO     | 
+[7/8] Processing: twmkn9/albert-base-v2-squad2
+2026-06-03 11:00:44 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 11:01:10 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 11:02:48 | INFO     | 
+[8/8] Processing: mrm8488/bert-small-finetuned-squadv2
+2026-06-03 11:02:53 | INFO     | 
+  -> Running TTA Inference (Validation)...
+2026-06-03 11:03:05 | INFO     | 
+  -> Running TTA Inference (Test)...
+2026-06-03 11:03:50 | INFO     | 
+Submission saved to: /kaggle/working/submission.csv
+2026-06-03 11:03:50 | INFO     | Log file saved to: /kaggle/working/pipeline_run.log
+2026-06-03 11:03:50 | INFO     | 
+============================================================
+2026-06-03 11:03:50 | INFO     | EVALUATING HIDDEN TEST SET
+2026-06-03 11:03:50 | INFO     | ============================================================
+2026-06-03 11:03:51 | INFO     | Matched 165 predictions to ground truth.
+2026-06-03 11:03:51 | INFO     | 🏆 TEST SET EXACT MATCH (EM): 72.73%
+2026-06-03 11:03:51 | INFO     | 🏆 TEST SET F1 SCORE:         78.98%
+2026-06-03 11:03:51 | INFO     | 
+Pipeline completed successfully!

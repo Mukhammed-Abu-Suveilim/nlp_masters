@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-05-31T21:53:49.928673+00:00",
+  "run_dir": "C:\\Users\\Mo\\work\\study\\Магистратура\\2025-2026\\Первый курс\\Второй семестр\\NLP\\QA Project 2\\outputs\\runs\\20260601_005349_qwen3.5-0.8b_val_limit1",
+  "model": "qwen3.5:0.8b",
+  "mode": "val",
+  "limit": 1,
+  "use_cache": true,
+  "refresh_cache": false,
+  "ollama_options": {
+    "temperature": 0.1,
+    "num_predict": 256,
+    "top_p": 0.9,
+    "think": false,
+    "api": "chat (fallback: generate)"
+  },
+  "retrieval": {
+    "max_chars": 4000,
+    "head_chars": 500
+  },
+  "validation": {
+    "val_size": 0.2,
+    "random_state": 42
+  },
+  "paths": {
+    "data_dir": "C:\\Users\\Mo\\work\\study\\Магистратура\\2025-2026\\Первый курс\\Второй семестр\\NLP\\QA Project 2\\data",
+    "cache_path": "C:\\Users\\Mo\\work\\study\\Магистратура\\2025-2026\\Первый курс\\Второй семестр\\NLP\\QA Project 2\\outputs\\cache.jsonl"
+  },
+  "val_exact_match": 0.0,
+  "n_val": 1,
+  "n_train": 160,
+  "timestamp": "2026-05-31T21:53:49.966762+00:00",
+  "note": "limited run (limit=1)"
+}
